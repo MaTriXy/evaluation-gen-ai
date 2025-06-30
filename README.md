@@ -23,11 +23,11 @@ Examples for evaluating generative AI use cases on Amazon Bedrock and Amazon Sag
 - RAGAS safety metrics implementation
 - Measure guardrail accuracy by analyzing tradeoffs between over-filtering (false positives) and under-filtering (false negatives).
 
-### 4. Agent Evaluation Framework
-- End-to-end agent testing
-- Task completion verification
-- Response quality measurement
-- Performance benchmarking
+### 4. [MeetingBank Evaluation](./model_eval_meetingbank/)
+- Evaluate models on meeting summarization tasks using the MeetingBank dataset
+- Support for both Amazon Bedrock and external models (Google Gemini)
+- Pre-generation of model responses for evaluation
+- Integration with Amazon Bedrock's evaluation capabilities
 
 ## Contributing
 Open an Issue or a Pull request.
